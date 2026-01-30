@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create Axios Instance
 const axiosInstance = axios.create({
-    baseURL: 'http://localhost:5000/api',
+    baseURL: 'https://beat-server.onrender.com/api',
 });
 
 // Request Interceptor: Attach Token
